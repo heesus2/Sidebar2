@@ -1,0 +1,35 @@
+[
+    {
+        "title" : "프로필 변경",
+        "icon" : "bi bi-person-gear",
+        "path" : "pages/profileChange"
+    },
+    {
+        "title" : "내 정보",
+        "icon" : "bi bi-person-circle",
+        "path" : "/myInfo"
+    },
+    {
+        "title" : "나의 일정",
+        "icon" : "bi bi-calendar3",
+        "path" : "/myCalendar"
+    },
+    {
+        "title" : "나의 참여 그룹",
+        "icon" : "bi bi-people",
+        "childrens" : [
+            {
+                "title" : "Public Schedule 팀",
+                "path" :"/"
+            },
+            {
+                "title" : "그린 아카데미 팀",
+                "path" :"/"
+            },
+            {
+                "title" : "그린 아카데미 팀팀팀팀",
+                "path" :"/"
+            }
+        ]
+    }
+]
